@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+
+         <!--LINK CSS-->
+        <link rel="stylesheet" href="/app/public/css/Gyu.css">
+         <!--LINK -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Woman in work</title>
+    </head>
+    <body>
+
+         <!--INICIO MENU DA PAGINA-->
+
+        <header>
+            <section class="container">
+                <nav>
+                    <a href="index.html">
+                        <img src="/app/public/imagem/logo2.png" width="158px" height="60px">
+                    </a>
+                    <ul class="ul">
+                        <a href="index.ejs">Home</a>
+                        <a href="sobrenos.ejs">Sobre nós</a>
+                        <a href="cursos2.ejs">Cursos</a>
+                        <a href="divulgacao.ejs">Divulgação de Serviços</a>
+                        <a href="#">Contato</a>
+                        <a class="btn" href="cadastro_prof (1).ejs">Entrar</a>
+                        <nav class="close-icon" onclick="closeMenu()">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i>
+                        </nav>
+                    </ul>
+                    <nav class="menu-icon" onclick="openMenu()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </nav>
+                </nav>
+            </section>
+            
+             <!--IMAGEM PRINCIPAL-->
+
+            <img class="home3" src="/app/public/imagem/home3.png" alt="Mulheres no trabalho" width="1342" height="700"/>
+        </header>
+        <!--FIM DO CABEÇALHO DA PAGINA-->
+
+
+        <!--INICIO DA AREA SOBRE NOS-->
+
+        <section class="Sobre">
+            <nav class="sobre_container">
+                <nav class="sobre_texto">
+                    <h3>Sobre nós</h3>
+                    <p>De acordo com a definição do Dicionário do Pensamento Social do Século XX, trabalho é o esforço humano dotado de um propósito e envolve a transformação da natureza através do dispêndio de capacidades físicas e mentais.</p>
+                    <a class="sobre_button" href="sobrenos.ejs">Saiba Mais</a>
+                </nav>
+                <nav class="sobre_img">
+                    <img src="/app/public/imagem/sobre.jpg" alt="">
+                </nav>
+            </nav>
+        </section>
+        <!--FIM DA AREA SOBRE NOS-->
+
+        <!--INICIO DA AREA CURSOS-->
+
+        <!--INICIO CARD DOS CURSOS-->
+        <section class="container_cursos">
+            <!--INICIO DO CARD 1-->
+            <article class="card card-1">
+              <!--CARD HEADER-->
+              <article class="card-header">
+                <img src="/app/public/imagem/marketingdig.jpg" class="card-img" />
+              </article>
+      
+              <!--CARD BODY-->
+              <section class="card-body">
+                <h2 class="card-titulo">Marketing</h2>
+                <p class="card-texto">
+                  Este curso prepara você para criar planos estratégicos de marketing, identificar tendências e oportunidades de vendas[...]
+                </p>
+              </section>
+      
+              <!--CARD FOOTER-->
+              <section class="card-footer">
+                <a href="marketing-cursos.ejs">Saiba Mais</a>
+              </section>
+            </article>
+            
+              <!--FIM DO CARD 1-->
+      
+            <!--INICIO DO CARD 2-->
+            <article class="card card-2">
+              <!--CARD HEADER-->
+              <article class="card-header">
+                <img src="/app/public/imagem/croche.jpeg" class="card-img" />
+              </article>
+      
+              <!--CARD BODY-->
+              <section class="card-body">
+                <h2 class="card-titulo">Crochê</h2>
+                <p class="card-texto">
+                  Este curso é um be-a-bá do crochê para quem ainda não sabe fazer nosso querido crochê ou para quem quer aprimorar as regras básicas do crochê[...]
+                </p>
+              </section>
+      
+              <!--CARD FOOTER-->
+              <section class="card-footer">
+                <a href="#">Saiba Mais</a>
+              </section>
+            </article>
+            <!--FIM DO CARD 2-->
+      
+            <!--INICIO DO CARD 3-->
+            <article class="card card-3">
+              <!--CARD HEADER-->
+              <article class="card-header">
+                <img src="/app/public/imagem/decoracao_bolo (1).jpg" class="card-img" />
+              </article>
+      
+              <!--CARD BODY-->
+              <section class="card-body">
+                <h2 class="card-titulo">Bolos Decorados</h2>
+                <p class="card-texto">
+                 Aprenda a fazer maravilhosos bolos decorados, utilizando as melhores práticas de preparo da massa, do recheio e da decoração, esse curso te ajudaria[..]
+                </p>
+              </section>
+      
+              <!--CARD FOOTER-->
+              <section class="card-footer">
+                <a href="#">Ver Mais</a>
+              </section>
+            </article>
+            <!--FIM DO CARD 3-->
+        </section>
+
+
+          <!--INICIO EXEMPLOS DE AREAS DE CURSOS-->
+          <h3 class="areas">Escolha a área do Curso desejado</h3>
+
+          <!--INICIO DA AREA 1 (GROOMER)-->
+          <section class="Areas">
+            <article class="areas_container">
+                <article class="areas_texto">
+                    <h3>Groomer</h3>
+                    <p>Este curso faz você um profissional qualificado para prestar cuidados de higiene a estética de animais.</p>
+                    <a href="areas_button">Saiba Mais</a>
+                </article>
+                <article class="areas_img">
+                    <img src="/app/public/imagem/groomer.jpg" alt="">
+                </article>
+            </article>
+        </section>
+
+        <!--INICIO DA AREA 2 (INFORMATICA)-->
+        <section class="Areas2">
+            <article class="areas2_container">
+                <article class="areas2_img">
+                    <img src="/app/public/imagem/info.jpg" alt="">
+                </article>
+                <article class="areas2_texto">
+                    <h3>Informática</h3>
+                    <p>Ramo das ciências da informação e da computação. Estuda os processos de recolha, armazenamento, processamento, transferência e difusão de dados digitais.
+                    </p>
+                    <a href="areas2_button">Saiba Mais</a>
+                </article>
+            </article>
+        </section>
+
+        <!--FIM EXEMPLOS DE AREAS DE CURSOS -->
+
+        <!--INICIO DOS DEPOIMENTOS-->
+        <section class="Depoimentos">
+            <article class="container"></article>
+            <h3>Depoimentos</h3>
+            <p>Veja o que os nossos usuários estão achando do site</p>
+
+            <!--INICIO DO CARD 1-->
+            <article class="cards">
+                <article class="cards-item">
+                    <img src="/app/public/imagem/perfil.jpg" alt="">
+                    <p class="nome_user">Agata Rodrigues</p>
+                    <p class="depoimento_user">Este site é perfeito, ideal para você mulher que busca ajuda no mercado de trabalho, amei me auxiliou em diversas formas.</p>
+                <article class="estrela">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </article>
+                </article>
+
+                <!--INICIO DO CARD 2-->
+                <article class="cards-item">
+                    <img src="/app/public/imagem/maria.jpg" alt="">
+                    <p class="nome_user">Maria</p>
+                    <p class="depoimento_user">Achei a área de cursos incrível com ótimos cursos para abranger o currículo e preços super acessíveis!</p>
+                <article class="estrela">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </article>
+                </article>
+
+                <!--INICIO DO CARD 3-->
+                <article class="cards-item">
+                    <img src="/app/public/imagem/perfil3.jpeg" alt="">
+                    <p class="nome_user">Bruna Louise</p>
+                    <p class="depoimento_user">Adorei a ferramenta de disponibilizar serviços, me sinto muito segura contratando outra mulher para vir em mim casa, site realmente pensado em mulheres.</p>
+                <article class="estrela">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </article>
+                </article>
+                </article>
+        </section>
+        <!--FIM DOS DEPOIMENTOS-->
+
+        <!--INICIO DO FOOTER-->
+        <footer class="footer">
+            <article class="container">
+                <nav class="links">
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                    <a href="#"> <i class="fa fa-github"></i></a>
+                </nav>
+                <p>WOMAN IN WORK</p>
+            </article>
+        </footer>
+        <!--FIM DO FOOTER-->
+
+        <!--LINK JAVASCRIPT-->
+        <script src="/app/public/js/Gyu.js"></script>
+    </body>
+</html>
